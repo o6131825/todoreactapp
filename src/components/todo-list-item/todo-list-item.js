@@ -17,7 +17,7 @@ class TodoListItem extends React.Component {
         <span
           className="todo-list-item-label"
           style={style} 
-          onClick={() => console.log(`Donr: ${label}`)}>
+          onClick={() => console.log(`мы тут немного обновили событие: ${label}`)}>
           {label}
         </span>
 
